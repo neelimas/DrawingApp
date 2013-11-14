@@ -21,6 +21,7 @@
 		CE3F778118352CCB0077845B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3F776318352CCB0077845B /* UIKit.framework */; };
 		CE3F778918352CCB0077845B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE3F778718352CCB0077845B /* InfoPlist.strings */; };
 		CE3F778B18352CCB0077845B /* DrawingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3F778A18352CCB0077845B /* DrawingAppTests.m */; };
+		CE3F779918352E4D0077845B /* DADrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3F779818352E4D0077845B /* DADrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CE3F778618352CCB0077845B /* DrawingAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawingAppTests-Info.plist"; sourceTree = "<group>"; };
 		CE3F778818352CCB0077845B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE3F778A18352CCB0077845B /* DrawingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingAppTests.m; sourceTree = "<group>"; };
+		CE3F779718352E4D0077845B /* DADrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DADrawingView.h; sourceTree = "<group>"; };
+		CE3F779818352E4D0077845B /* DADrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DADrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		CE3F775318352CCB0077845B = {
 			isa = PBXGroup;
 			children = (
+				CE3F779718352E4D0077845B /* DADrawingView.h */,
+				CE3F779818352E4D0077845B /* DADrawingView.m */,
 				CE3F776518352CCB0077845B /* DrawingApp */,
 				CE3F778418352CCB0077845B /* DrawingAppTests */,
 				CE3F775E18352CCB0077845B /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				CE3F776C18352CCB0077845B /* main.m in Sources */,
 				CE3F777618352CCB0077845B /* DAViewController.m in Sources */,
+				CE3F779918352E4D0077845B /* DADrawingView.m in Sources */,
 				CE3F777018352CCB0077845B /* DAAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +467,7 @@
 				CE3F779018352CCB0077845B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE3F779118352CCB0077845B /* Build configuration list for PBXNativeTarget "DrawingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				CE3F779318352CCB0077845B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
